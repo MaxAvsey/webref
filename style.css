@@ -1,30 +1,15 @@
-.block {
-    background-color: #795548;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    color: #fff;
+.cards {
+    position: absolute;
+    left: 50%; 
+    top: 50px;
+    transform-origin: 50% 100%;
 }
-.block h2 {
-    overflow: hidden;
-    color: #feea3b ;
-    font-weight: normal;
-    margin: 0;
-    text-align: center;
+.three {
+    transform: rotate(-15deg);
 }
-.block h2::before, .block h2::after {
-    content: '';
-    background-color: #feea3b;
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+.ace {
+    transform: rotate(15deg);
 }
-.block h2::before {
-    right: 10px;
-    margin-left: -50%;
+.cards:hover {
+    z-index: 2;
 }
-.block h2::after {
-    left: 10px;
-    margin-right: -50%;
-   }
