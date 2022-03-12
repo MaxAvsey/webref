@@ -1,13 +1,10 @@
 body {
     margin: 0 auto;
 }
-
-div {
-    width: 50%;
-    background: #b2d235;
-    padding: 30px;
-    border: 2px solid white;
-    margin: 15px auto;
-    outline: 2px solid white;
-    outline-offset: -25px;
+table {
+    background: #b6dec2;
+    border-collapse: collapse;
 }
+th, td {
+    border: 2px solid white;
+    padding: 7px;
