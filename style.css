@@ -1,37 +1,21 @@
 body {
-    background: #f7f6f2;
+    min-height: 1000px;
 }
-.koktails {
-    display: inline-block;
-    position: relative;
-    padding: 12px;
-    margin: 0;
-    overflow: hidden;
-
+nav {
+    width: 200px;
+    position: fixed;
+    background-color: #edf6ff;
+    text-decoration: none;
+    right: 0;
+    top: 200px;
+    margin: 15px;
+    padding: 10px;
 }
-.koktails::before, .koktails::after {
-    position: absolute;
-    content: '';
-    height: 2px;
-    z-index: 2;
-    width: 70px;
-    height: 70px;
-    left: -40px;
-    bottom: -40px;
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    outline: #c2b59d dashed 1px;
-    outline-offset: -3px;
-    background: #f7f6f2;
+ul {
+    list-style-type: none;
+    padding: 10px;
+    float: left;
 }
-.koktails::after {
-    left: auto;
-    right: -40px;
-    top: -40px;
-}
-.koktails img {
-    display: block;
-    padding: 4px;
-    background: #dad6cf;
-    border: 2px solid #c2b59d;
+li {
+    padding: 1px;
 }
