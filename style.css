@@ -1,14 +1,20 @@
 body {
     margin: 0 auto;
+    min-height: 1000px;
 }
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
+nav {
+    position: sticky;
+    top: 0;
     width: 100%;
-    background-color: black;
-    color: white;
-    border-top: 3px solid blue;
-    box-sizing: border-box;
+    margin: 10px;
+    background: #b41a83;
+}
+ul {
     padding: 10px;
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-right: 15px;
 }
