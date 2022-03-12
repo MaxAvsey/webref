@@ -1,21 +1,14 @@
 body {
-    min-height: 1000px;
+    margin: 0 auto;
 }
-nav {
-    width: 200px;
+footer{
     position: fixed;
-    background-color: #edf6ff;
-    text-decoration: none;
-    right: 0;
-    top: 200px;
-    margin: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 3px solid blue;
+    box-sizing: border-box;
     padding: 10px;
-}
-ul {
-    list-style-type: none;
-    padding: 10px;
-    float: left;
-}
-li {
-    padding: 1px;
 }
