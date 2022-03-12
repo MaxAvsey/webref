@@ -1,24 +1,37 @@
 body {
-    background-image: url(/travolta.jpg);
-    background-size: cover;
+    background: #f7f6f2;
 }
-.travolta   {
-    width: 100%;
-    height: auto;
-}
-.overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.error {
+.koktails {
+    display: inline-block;
     position: relative;
+    padding: 12px;
+    margin: 0;
+    overflow: hidden;
+
+}
+.koktails::before, .koktails::after {
+    position: absolute;
+    content: '';
+    height: 2px;
     z-index: 2;
-    font-size: 8em;
-    color: white;
-    text-align: center;
-    margin-top: 200px;
+    width: 70px;
+    height: 70px;
+    left: -40px;
+    bottom: -40px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: #c2b59d dashed 1px;
+    outline-offset: -3px;
+    background: #f7f6f2;
+}
+.koktails::after {
+    left: auto;
+    right: -40px;
+    top: -40px;
+}
+.koktails img {
+    display: block;
+    padding: 4px;
+    background: #dad6cf;
+    border: 2px solid #c2b59d;
 }
