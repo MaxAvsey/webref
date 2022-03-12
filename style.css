@@ -1,55 +1,11 @@
 body {
-    background: #f8f8f8;
-    margin: 0;
+    font-family: Oswald, sans-serif;
 }
-
-main {
-    width: 400px;
-    margin: 10px auto;
-    background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-    min-height: 1000px;
-    padding: 20px;
+div {
+    margin: 1rem 0;
+    line-height: 2;
 }
-.socials {
-    width: 64px;
-    float: left;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-}
-header, footer {
-    background: #333;
-    color: white;
-    padding: 20px;
-}
-
-
-/**code that was written by miself ->>
-
-header h1 {
-    position: absolute;
-    margin: 0;
-    font-weight: 300;
-    left: 25%;
-}
-
-section p {
-    font-family: 'Times New Roman', Times, serif ;
-    font-weight: 200;
-    padding: 15px;
-}
-aside {
-    position: sticky;
-    width: 15%;
-    top: 100px;
-    left: 25px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-.social {
-    position: sticky;
-    top: 0;
+span {
+    padding: 3px 10px;
+    background: #f9e3b2;
 }
