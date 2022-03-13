@@ -1,14 +1,35 @@
-body{
-    background-color: #497775;
+body {
+    background: #18326d;
 }
-div {
-    width: 300px;
-    height: 300px;
+.frame {
     box-sizing: border-box;
-    background: #FFF;
-    margin: auto;
-    padding: 20px;
-    border-radius: 5px 5px;
-    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 70%);
-    overflow: auto;
+    background: #2b417a;
+    width: 95%;
+    margin: 30px auto;
+    padding: 30px;
+    color: #86a4f5;
+}
+.frame div {
+    width: 60%;
+    text-align: right;
+    margin: 10px;
+}
+.frame input {
+    width: 300px;
+    height: 20px;
+    background: #182a50;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    background: #182a50;
+}
+.frame button {
+    position: relative;
+    right: 167px;
+    width: 140px;
+    background: #0d1321;
+    color: #2b417a;
+    padding: 10px;
 }
