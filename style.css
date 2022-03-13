@@ -1,20 +1,14 @@
-body {
-    background: #b6d554;
+body{
+    background-color: #497775;
 }
-.login {
-    background: #fff;
+div {
     width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    background: #FFF;
     margin: auto;
-    padding: 30px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 40%);
-}
-.login div {
-    margin-top: 15px;
-}
-.login div:first-child {margin: 0;}
-.login input, .login button {
-    padding: 10px;
-    box-sizing: border-box;
-    width: 100%;
+    padding: 20px;
+    border-radius: 5px 5px;
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 70%);
+    overflow: auto;
 }
