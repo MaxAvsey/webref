@@ -1,15 +1,28 @@
 body {
+    background: #b6d554;
     margin: 0 auto;
 }
-.cards {
+form {
+    background: white;
+    width: 300px;
+    margin: 10px auto;
     text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 40%);
 }
-
-.card {
-    background: #2962a9;
-    color: #fff;
-    display: inline-block;
+input {
+    width: 80%;
     padding: 10px;
-    margin: 0 5px;
-    text-align: center;
+    margin: 20px 1px 1px 1px;
+    border: 2px solid #c5c5c5;
+    color: #c5c5c5;;
+
+}
+button {
+    box-sizing: border-box;
+    width: 88%;
+    padding: 10px;
+    margin: 20px 0px 30px 0px;
+    background: #e1e1e1;
+    border: 2px solid #cfcfcf;
 }
