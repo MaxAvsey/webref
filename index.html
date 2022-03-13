@@ -14,21 +14,25 @@
 
     </head>
     <body>
-        <form class="frame" action="/1.php">
-            <div>Имя
-                <input type="text" name="fname">
+        <form action="/1.php">
+            <div class="row">
+                <label>Имя</label>
+                <input type="text" name="first-name">
             </div>
-            <div>Фамилия
-                <input type="text" name="lname">
+            <div class="row">
+                <label>Фамилия</label>
+                <input type="text" name="last-name">
             </div>
-            <div>I-mail
-                <input type="email">
+            <div class="row">
+                <label>I-mail</label>
+                <input type="email" name="email">
             </div>
-            <div >Сообщение
-                <textarea name="message" rows="10" cols="30"></textarea>
+            <div class="row">
+                <label>Сообщение</label>
+                <textarea name="message"></textarea>
             </div>
             <div class="send">
-                <button>ОТПРАВИТЬ</button>
+                <button>Отправить</button>
             </div>
         </form>
     </body>
