@@ -1,32 +1,21 @@
-body {
-    background: #f5f5f5;
+section {
+    background: #f5f4f1;
+    width: 70%;
 }
 div {
-    background: #e1e1e1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: inline-block;
+}
 
+figcaption {
+    text-align: right;
 }
-div span {
-    background: #d63138;
-    color: white;
-    text-transform: uppercase;
-    font-style: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+figure {
+    padding-right: 10px;
+    margin: 15px;
+    border-right: 2px solid #bf9262;
 }
-ul {
-    background: white;
-    margin: 0px;
-    padding: 10px;
-}
-li {
-    display: inline;
-    margin-right: 15px;
-}
-a {
-    padding: 15px;
-}
+h2 {
+    vertical-align: top;
 
 
 
