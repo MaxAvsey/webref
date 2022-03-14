@@ -1,42 +1,20 @@
-.block {
-    margin: auto;
-    box-sizing: border-box;
-    }
-.block h1 {
-    text-transform: uppercase;
-    text-align: center;
-    background: #f5f4f1;
-    margin-bottom: 0px;
-    padding: 10px;
-    font-size: 16px;
+.block ul {
+    background: #b41a83;
+    padding: 10px 15px;
 }
 
-.block-content ul {
-    margin: 0px;
+.block li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
 }
-.block-content li {
-    box-sizing: border-box;
-    width: 100%;
-    border: 1px solid #f5f4f1;
-    list-style-type: none;
-}
-.block-content a {
-    display: block;
+.block a {
+    color: white;
     text-decoration: none;
-    color: black;
-    padding: 5px;
 }
-.block-content a:hover {
-    background: #bc8e5c;
-    color: #fff;
-    padding: 5px;
+.block a:hover {
+    text-decoration: underline;
 }
-
-
-
-
-
-
 
 
 
