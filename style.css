@@ -1,29 +1,36 @@
-table {
+.block {
     margin: auto;
-    width: 400px;
-    border-collapse: collapse;
-}
-th {
+    box-sizing: border-box;
+    }
+.block h1 {
+    text-transform: uppercase;
+    text-align: center;
     background: #f5f4f1;
+    margin-bottom: 0px;
     padding: 10px;
-    
+    font-size: 16px;
 }
-td {
+
+.block-content ul {
+    margin: 0px;
+}
+.block-content li {
+    box-sizing: border-box;
+    width: 100%;
     border: 1px solid #f5f4f1;
-   
+    list-style-type: none;
 }
-a {
+.block-content a {
     display: block;
     text-decoration: none;
     color: black;
     padding: 5px;
 }
-a:hover {
+.block-content a:hover {
     background: #bc8e5c;
     color: #fff;
     padding: 5px;
 }
-/** i agree that my solution dosn't look good enough, let see what the school provides
 
 
 
@@ -47,51 +54,3 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**body {
-    background: #18326d;
-}
-.frame {
-    box-sizing: border-box;
-    background: #2b417a;
-    width: 95%;
-    margin: 30px auto;
-    padding: 30px;
-    color: #86a4f5;
-}
-.frame div {
-    width: 60%;
-    text-align: right;
-    margin: 10px;
-}
-.frame input {
-    width: 300px;
-    height: 20px;
-    background: #182a50;
-}
-textarea {
-    width: 300px;
-    height: 100px;
-    overflow: scroll;
-    background: #182a50;
-}
-.frame button {
-    position: relative;
-    right: 167px;
-    width: 140px;
-    background: #0d1321;
-    color: #2b417a;
-    padding: 10px;
-}**/
