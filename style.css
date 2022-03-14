@@ -1,46 +1,29 @@
-body {
-    background: #18326d;
+table {
+    margin: auto;
+    width: 400px;
+    border-collapse: collapse;
 }
-form {
-    background: #2b417a;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #44567e;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+th {
+    background: #f5f4f1;
+    padding: 10px;
+    
 }
-.row {
-    overflow: hidden;
-    margin-bottom: 1rem;
+td {
+    border: 1px solid #f5f4f1;
+   
 }
-label {
-    color: #8dacfe;
-    width: 100px;
-    float: left;
-    text-align: right;
-    margin-right: 10px;
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
-input, textarea {
-    background: #182a50;
-    box-shadow: inset -2px -2px 2px #425575;
-    width: 300px;
-    border: none;
+a:hover {
+    background: #bc8e5c;
     color: #fff;
     padding: 5px;
 }
-textarea {
-    height: 100px;
-}
-button {
-    margin-left: 110px;
-    background: #0d1321;
-    border: none;
-    color: #6d82bb;
-    padding: 10px 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-
+/** i agree that my solution dosn't look good enough, let see what the school provides
 
 
 
