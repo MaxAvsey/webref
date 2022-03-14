@@ -17,10 +17,15 @@ div span {
 }
 ul {
     background: white;
+    margin: 0px;
+    padding: 10px;
 }
 li {
     display: inline;
     margin-right: 15px;
+}
+a {
+    padding: 15px;
 }
 
 
