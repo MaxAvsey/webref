@@ -1,24 +1,22 @@
-section {
+article {
     background: #f5f4f1;
-    width: 70%;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
 }
-div {
+.fig {
     display: inline-block;
-}
-
-figcaption {
-    text-align: right;
-}
-figure {
     padding-right: 10px;
-    margin: 15px;
-    border-right: 2px solid #bf9262;
+    text-align: right;
+    border-right: 2px solid #be8f59;
 }
-h2 {
+.h2 {
+    display: inline-block;
+    width: 138px;
+    margin: 0 0 0 10px;
+    font-weight: normal;
     vertical-align: top;
-
-
-
+}
 
 
 
