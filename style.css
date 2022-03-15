@@ -1,22 +1,30 @@
-article {
-    background: #f5f4f1;
-    width: 500px;
-    padding: 20px;
-    box-sizing: border-box;
+.nav {
+    margin: auto;
+    width: 400px;
 }
-.fig {
+.buttons {
     display: inline-block;
-    padding-right: 10px;
-    text-align: right;
-    border-right: 2px solid #be8f59;
+    text-align: center;
+    margin-right: 15px;
+    
+
 }
-h2 {
-    display: inline-block;
-    width: 138px;
-    margin: 0 0 0 10px;
-    font-weight: normal;
-    vertical-align: top;
+.arrow {
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 30px;
 }
+.numbers {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 45px;
+}
+.buttons:hover {
+    background: #ff6600;
+    border: 2px solid white;
+
+}
+
 
 
 
