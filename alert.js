@@ -9,5 +9,14 @@
 // alert(`You are ${age} years old`);
 // let agreement = confirm('are you agree?');
 // alert(agreement);
-let userName = prompt('What is your name?', 'Name');
-alert(`Hello ${userName}`);
+// let userName = prompt('What is your name?', 'Name');
+// alert(`Hello ${userName}`);
+// let a = +prompt('First number', 0)
+// let b = +prompt('Second number', 0)
+// alert(+a + +b);
+let name = prompt('What is right js name?', 'name');
+if(name == 'ECMAScript') {
+    alert('Right');
+} else {
+    alert("Don't you know?");
+};
