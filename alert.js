@@ -14,9 +14,17 @@
 // let a = +prompt('First number', 0)
 // let b = +prompt('Second number', 0)
 // alert(+a + +b);
-let name = prompt('What is right js name?', 'name');
-if(name == 'ECMAScript') {
-    alert('Right');
+// let name = prompt('What is right js name?', 'name');
+// if(name == 'ECMAScript') {
+//     alert('Right');
+// } else {
+//     alert("Don't you know?");
+// };
+let value = prompt('Write a number','');
+if (value > 0){
+    alert(1);
+} else if (value < 0) {
+    alert(-1);
 } else {
-    alert("Don't you know?");
+    alert(0);
 };
