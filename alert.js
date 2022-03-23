@@ -59,13 +59,13 @@ let login = prompt('Who is here?', '');
      let password = prompt('Password','');
          if(password === 'boss') {
              alert('Hello');
-         } else if (password !== 'boss'){
-             alert('Password is wrong');
+         } else if (password === '' || password === null){
+             alert('Cancel');
          } else {
-            alert('Cancel');
+            alert('Password is wrong');
          }
-        } else if(login!== 'admin' || login !== 'Admin'){
-            alert("I don't know you");
-        } else {
+        } else if(login === '' || login === null){
             alert('Cancel');
+        } else {
+            alert("I don't know you");
         }
