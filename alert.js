@@ -48,6 +48,24 @@
 // let message = (login == 'Сотрудник') ? 'Привет':
 //  (login == 'Директор') ? 'Здравствуйте':
 //  (login == '') ? 'Нет логина': 
-//  '';
-let age = prompt('Enter', '');
-if(age >= 14 && age <= 90)
+// //  '';
+// let age = prompt('Enter', '');
+// if(age < 14 || age > 90) 
+// if(!(age >=14 && <=90))
+
+let login = prompt('Who is here?', '');
+
+ if(login == 'admin' || login == 'Admin') {
+     let password = prompt('Password','');
+         if(password === 'boss') {
+             alert('Hello');
+         } else if (password !== 'boss'){
+             alert('Password is wrong');
+         } else {
+            alert('Cancel');
+         }
+        } else if(login!== 'admin' || login !== 'Admin'){
+            alert("I don't know you");
+        } else {
+            alert('Cancel');
+        }
