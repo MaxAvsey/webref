@@ -53,19 +53,28 @@
 // if(age < 14 || age > 90) 
 // if(!(age >=14 && <=90))
 
-let login = prompt('Who is here?', '');
+// let login = prompt('Who is here?', '');
 
- if(login == 'admin' || login == 'Admin') {
-     let password = prompt('Password','');
-         if(password === 'boss') {
-             alert('Hello');
-         } else if (password === '' || password === null){
-             alert('Cancel');
-         } else {
-            alert('Password is wrong');
-         }
-        } else if(login === '' || login === null){
-            alert('Cancel');
-        } else {
-            alert("I don't know you");
-        }
+//  if(login == 'admin' || login == 'Admin') {
+//      let password = prompt('Password','');
+//          if(password === 'boss') {
+//              alert('Hello');
+//          } else if (password === '' || password === null){
+//              alert('Cancel');
+//          } else {
+//             alert('Password is wrong');
+//          }
+//         } else if(login === '' || login === null){
+//             alert('Cancel');
+//         } else {
+//             alert("I don't know you");
+//         }
+//
+//
+//
+//При помощи цикла for выведите чётные числа от 2 до 10.
+for(let i = 2; i <= 10; i++) {
+    if (i % 2 == 0){
+        alert(i);
+    }
+}
