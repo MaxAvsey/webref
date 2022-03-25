@@ -95,12 +95,47 @@
 // либо не нажмёт кнопку Отмена (ESC).
 // // Предполагается, что посетитель вводит только числа. 
 // Предусматривать обработку нечисловых строк в этой задаче необязательно.
- let number;
-  do {
-   number =prompt('Enter number more than 100',0);
-    } while (number <= 100 && number);
+//  let number;
+//   do {
+//    number =prompt('Enter number more than 100',0);
+//     } while (number <= 100 && number);
     
-let num;
-do {
-  num = prompt("Введите число больше 100?", 0);
-} while (num <= 100 && num);
+// let num;
+// do {
+//   num = prompt("Введите число больше 100?", 0);
+// } while (num <= 100 && num);
+
+// for(let n = 2; n <= 10; i++){
+//     if (n =>1 || n % 2 ==0)
+//     alert(n);
+// }
+/////////////////////////////////////////////////
+// Напишите if..else, соответствующий следующему switch:
+//
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+    if(browser === 'Edge'){
+        alert("You've got the Edge!");
+    } else if(browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera' ) {
+        alert('Okay we support these browsers too');
+    } else {
+        alert('We hope that this page looks ok!');
+    }
+
+
+
+
+
