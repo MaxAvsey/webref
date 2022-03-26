@@ -152,23 +152,35 @@
 // if (number === 2 || number === 3) {
 //   alert('Вы ввели число 2, а может и 3');
 // }
-const number = prompt('Enter number','0');
-switch(number) {
-    case '0':
-    alert('You entered 0');
-    break;
-    case '1':
-    alert('You entered 1');
-    break;
-    case '2':
-    case '3':
-    alert('You entered 3 or maybe 2')
-    break;
-    default:
-        alert("I do not know");
-}
+// const number = prompt('Enter number','0');
+// switch(number) {
+//     case '0':
+//     alert('You entered 0');
+//     break;
+//     case '1':
+//     alert('You entered 1');
+//     break;
+//     case '2':
+//     case '3':
+//     alert('You entered 3 or maybe 2')
+//     break;
+//     default:
+//         alert("I do not know");
+// }
+Следующая функция возвращает true, если параметр age больше 18.
 
+В ином случае она задаёт вопрос confirm и возвращает его результат.
 
+function checkAge(age) {
+  return (age > 18) ? true: confirm('Родители разрешили?');
+  }
+checkAge(18);
+Перепишите функцию, чтобы она делала то же самое, но без if, в одну строку.
+
+Сделайте два варианта функции checkAge:
+
+Используя оператор ?
+Используя оператор ||
 
 
 
